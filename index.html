@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator - Professional & Modern</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="calculator-card">
+            <div class="header">
+                <div class="icon-wrapper">
+                    <i class="fas fa-birthday-cake"></i>
+                </div>
+                <h1>Age Calculator</h1>
+                <p>Discover your exact age in years, months, and days</p>
+            </div>
+
+            <div class="input-section">
+                <div class="input-group">
+                    <label for="birthdate">
+                        <i class="fas fa-calendar-alt"></i>
+                        Select Your Birth Date
+                    </label>
+                    <input type="date" id="birthdate" class="date-input">
+                    <div class="input-border"></div>
+                </div>
+                
+                <button id="calculateBtn" class="calculate-btn">
+                    <span class="btn-text">Calculate Age</span>
+                    <i class="fas fa-arrow-right"></i>
+                </button>
+            </div>
+
+            <div class="result-section" id="resultSection">
+                <div class="result-header">
+                    <i class="fas fa-chart-line"></i>
+                    <h2>Your Age Details</h2>
+                </div>
+                
+                <div class="age-cards">
+                    <div class="age-card years-card">
+                        <div class="age-icon">
+                            <i class="fas fa-calendar-check"></i>
+                        </div>
+                        <div class="age-number" id="years">0</div>
+                        <div class="age-label">Years</div>
+                    </div>
+                    
+                    <div class="age-card months-card">
+                        <div class="age-icon">
+                            <i class="fas fa-calendar-week"></i>
+                        </div>
+                        <div class="age-number" id="months">0</div>
+                        <div class="age-label">Months</div>
+                    </div>
+                    
+                    <div class="age-card days-card">
+                        <div class="age-icon">
+                            <i class="fas fa-calendar-day"></i>
+                        </div>
+                        <div class="age-number" id="days">0</div>
+                        <div class="age-label">Days</div>
+                    </div>
+                </div>
+
+                <div class="additional-info">
+                    <div class="info-item">
+                        <span class="info-label">Total Days Lived:</span>
+                        <span class="info-value" id="totalDays">0</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">Total Hours Lived:</span>
+                        <span class="info-value" id="totalHours">0</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">Total Minutes Lived:</span>
+                        <span class="info-value" id="totalMinutes">0</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="error-message" id="errorMessage">
+                <i class="fas fa-exclamation-triangle"></i>
+                <span>Please select a valid birth date</span>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>Built with ❤️ for CodeAlpha Internship</p>
+            <div class="social-links">
+                <a href="#" class="social-link">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="#" class="social-link">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="background-animation">
+        <div class="floating-shape shape-1"></div>
+        <div class="floating-shape shape-2"></div>
+        <div class="floating-shape shape-3"></div>
+        <div class="floating-shape shape-4"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
