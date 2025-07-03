@@ -23,9 +23,6 @@ The goal of this project is to calculate a person's age in **years**, **months**
 4. Your exact age will be displayed.
 
 ## 📽️ Project Video
-[Link to LinkedIn video explanation](#) *(Add your actual video post link here)*
+https://www.linkedin.com/in/assad-mohamed-1bb326357/
 
-## 🔗 Live Demo
-[Optional GitHub Pages Live Link](#) *(Only if you deployed it)*
 
-## 📂 Folder Structure
